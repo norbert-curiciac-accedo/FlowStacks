@@ -1,11 +1,11 @@
-// swift-tools-version:5.4
+// swift-tools-version:5.6
 
 import PackageDescription
 
 let package = Package(
     name: "FlowStacks",
     platforms: [
-        .iOS(.v13), .watchOS(.v7), .macOS(.v11), .tvOS(.v13),
+        .iOS(.v15), .watchOS(.v7), .macOS(.v11), .tvOS(.v15),
     ],
     products: [
         .library(
